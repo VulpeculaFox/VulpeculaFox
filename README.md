@@ -12,7 +12,7 @@ I am a final-year **Computer Science** student, passionate about **Software Engi
 *   **Overview:** Analyzed and benchmarked various computer vision algorithms for real-time detection in high-density environments.
 *   **Focus:** Optimized detection efficiency and accuracy, specifically addressing challenges related to occluded subjects and crowd density variation.
 
-### 🅿️ Intelligent Parking Management System (FYP)
+### 🅿️ Intelligent Parking Management System
 *   **Overview:** A comprehensive group project developing an Intelligent Parking Management System for both user and admin roles.
 *   **Key Tech:** Integrated **AIoT** with computer vision for license plate recognition and traffic monitoring, coupled with a robust server-side synchronization architecture.
 
