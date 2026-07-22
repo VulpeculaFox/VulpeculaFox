@@ -1,0 +1,17 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}] # every day at 00:00 update
+  push: {branches: ["master", "main"]} # every push to master or main will trigger the workflow
+  workflow_dispatch: # allow manual trigger
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }} # setting token
+          # modules
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
