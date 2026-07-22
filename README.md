@@ -1,1 +1,1 @@
-![Metrics](https://github.com/VulpeculaFox/VulpeculaFox/blob/master/github-metrics.svg)
+![Metrics](https://github.com/VulpeculaFox/VulpeculaFox/blob/main/github-metrics.svg)
